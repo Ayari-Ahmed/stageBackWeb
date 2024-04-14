@@ -1,0 +1,98 @@
+*{
+    text-align: center;
+
+}
+.Table{
+    background-color: #b6c8bf7a;
+    
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+.table__header {
+    width: 50%;
+    height: 20%;
+    background-color: rgba(125, 124, 124, 0.353) !important;
+    padding: .8rem 1rem;
+    font-size: 26px;
+    text-align: center;
+    
+}
+.Table_Header{
+    text-align: center !important;
+}
+.Table_Header:hover{
+    background-color: rgba(240, 248, 255, 0.478);
+    color: #1c5f3f;
+}
+.row{
+    font-size: 26px;
+}
+.rooww{
+  font-size: 26px;
+}
+
+.rooww:hover{
+  background-color: #f6f6f6;
+}
+.row:hover{
+    background-color: #f6f6f6;
+}
+.myDiv1{
+    width: 89%;
+    margin-left: 5%;
+    position: relative;
+    top: 50px;
+    
+}
+#input{
+    font-size: 25px;
+    padding: 25px;
+    
+}
+#myDiv4{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif; 
+    font-size: 55px;
+    font-weight: bold;
+    color: #1c5f3f;
+  }
+  @media (max-width: 768px) {
+    #myDiv4 {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 600px) {
+    #myDiv4 {
+      font-size: 30px;
+    }
+  }
+  
+@media (max-width: 576px) {
+    #myDiv4 , #myDiv4 p:nth-child(2) {
+      font-size: 20px;
+    }
+  }
+  #myDiv4 p:nth-child(2) {
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    font-weight: normal;
+  }
+  #Logo8{
+      width: 10%;
+      float: right;
+      position: relative;
+        top: -80px;
+  }
+  .Grid{
+    width: 99.65%;
+}
+#Footer_Recherche{
+  position: relative;
+}
+
+.Lienn{
+  text-decoration: none;
+  color: black;
+}

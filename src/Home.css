@@ -1,0 +1,156 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#Logo2 {
+  width : 40%;
+  float: right;
+}
+#Logo1 {
+  width: 55%;
+  
+}
+#Logo5{
+  width: 100%;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+#Logo7{
+  width: 70%;
+  position: relative;
+  top: -200px;
+  left: 100px;
+}
+
+#Div3{
+  height: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap');
+
+#Div2{
+  text-align: center;
+  font-family: 'Reem Kufi', sans-serif; 
+  color: #caa023;
+  font-size: 55px;
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+  #Div2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  #Div2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  #Div2 {
+    font-size: 25px;
+  }
+}
+
+#Logo4{
+  width: 25%;
+}
+#myDiv4{
+  text-align: center;
+  font-family: 'Reem Kufi', sans-serif; 
+  font-size: 55px;
+  font-weight: bold;
+  color: #1c5f3f;
+}
+@media (max-width: 768px) {
+  #myDiv4 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  #myDiv4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  #myDiv4 , #myDiv4 p:nth-child(2) {
+    font-size: 20px;
+  }
+}
+#myDiv4 p:nth-child(2) {
+  font-size: 30px;
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+}
+#myDiv5{
+  position: relative;
+  top: 50px;
+  height: 300px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 7px;
+  color: #629721;
+  text-align: right;
+}
+
+
+
+
+#myDiv6 {
+  position: relative;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+}
+
+.responsive-button {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  
+  transition: 1s ease;
+  
+}
+.responsive-button :hover{
+  font-size: 28px;
+}
+#butt{
+  font-size: 25px;
+  height: 50px; 
+}
+@media (max-width: 576px) {
+  .responsive-button {
+    font-size: 16px; 
+
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-button {
+    font-size: 14px; 
+  }
+}
+.bottom-grid {
+  position: absolute;
+  bottom: -230px;
+  width: 101%;
+  height: 100px;
+  background-color: #c2c2c299;
+} 
+
+.Tunisian_Flag{
+  width: 10%;
+  float: right;
+}
+.L_Footer{
+  float: left;
+  width: 45%;
+  
+}
+#text-footer{
+  text-align: center;
+  font-weight: bold;
+}
+.Grid{
+  width: 99%;
+}

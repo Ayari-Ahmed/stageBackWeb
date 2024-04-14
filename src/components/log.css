@@ -1,0 +1,23 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.left{
+    text-align: left;
+}
+.cont_log{
+    position: relative;
+    top:180px;
+    width: 70%;
+    display: inline-block;
+    
+    border-radius: 20px;
+    background-color: rgba(244, 244, 244, 0.807);
+    box-shadow: 0 .4rem .8rem #0005;
+}
+#b:active {
+    height: 50px;
+  }

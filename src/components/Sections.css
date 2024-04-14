@@ -1,0 +1,131 @@
+#myDiv4{
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif; 
+    font-size: 55px;
+    font-weight: bold;
+    color: #1c5f3f;
+  }
+  @media (max-width: 768px) {
+    #myDiv4 {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 600px) {
+    #myDiv4 {
+      font-size: 30px;
+    }
+  }
+  
+@media (max-width: 576px) {
+    #myDiv4 , #myDiv4 p:nth-child(2) {
+      font-size: 20px;
+    }
+  }
+  #myDiv4 p:nth-child(2) {
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    font-weight: normal;
+  }
+  #Logo2 {
+    width : 40%;
+    float: right;
+  }
+  #Logo1 {
+    width: 55%;
+    
+  }
+  #Sections{
+      background-color: #1c5f3f;
+      width: 60%;
+      height: 40%;
+  }
+  .Sections-Logos{
+      margin: 10%;
+      width: 60%;
+      
+    height: 200px;
+  }
+  .Section{
+    border-radius: 40px;
+    border: 1px solid rgb(136, 135, 135);
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.5);
+     background-color: #70d7ca2d;
+     transition: padding 0.4s ease, background-color 0.5s ease;
+  }
+  .Section:hover {
+    background-color: #7085d757;
+    padding: 25px;
+  }
+  
+  #lien1:hover{
+    background-color: #70d78b57;
+  }
+  #lien2:hover{
+    background-color: #bfd77057;
+  }
+  #lien3:hover{
+    background-color: #d7af7057;
+  }
+  #lien4:hover{
+    background-color: #7f70d757;
+  }
+  #lien5:hover{
+    background-color: #d7707050;
+  }
+  #lien6:hover{
+    background-color: #77d77057;
+  }
+  #lien7:hover{
+    background-color: #0b0ff761;
+  }
+.Lien{
+    text-decoration: none;
+    color: #00BFA6;
+  }
+#lien5,#lien6,#lien7{
+  margin-top: 15% !important;
+}
+#footer{
+  bottom: -400px;
+  
+}
+.Matieres{
+  width: 80%;
+  border-radius: 40px;
+  background-color: #9ade952c;
+  border: 1px solid rgb(136, 135, 135);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.5);
+  transition: padding 0.4s ease, background-color 0.5s ease;
+}
+.Matieres:hover {
+  background-color: #70cdd744;
+  padding: 20px;
+}
+#logo_Recherche{
+  display: flex;
+  position: relative;
+  height: 100px;
+  width: 20%;
+  left: 75%;
+  border: 1px solid rgb(136, 135, 135);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.5);
+  background-color: #70d7ca2d;
+  transition: padding 0.4s ease, background-color 0.5s ease;
+  background-color: #70d7ca2d;
+  margin-bottom: -80px;
+  border-radius: 20px;
+}
+#logo_Recherche H1{
+  font-family: 'Roboto', sans-serif; /* Using Roboto as the font */
+  font-size: 40px; /* Large text for visibility */
+  color: #00BFA6; /* Dark grey for high contrast on light backgrounds */
+  padding: 10px 40px 10px 10px; /* Padding for text inside input */
+  width: 40%; 
+  font-weight: bold;
+  padding: 5% 10% 12px 35px;
+}
+#logo_Recherche img{
+  position: relative;
+  float: left ;
+  left: 30%;
+}

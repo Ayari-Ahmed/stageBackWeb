@@ -1,0 +1,123 @@
+#Nav_Bar{
+    width: 50%;
+    height: 800px;
+    
+}
+#Fo{
+    bottom: 0 ;
+}
+#Boodyy{
+    width: 100%;
+    height: 100%;
+}
+#Login_Box{
+    
+    border-radius: 20px;
+    display: flex;
+    
+  background-color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 40%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 .4rem .8rem #0005;
+}
+#Login_Box h1{
+    margin-top: 5%;
+    color: rgb(39, 79, 39);
+    
+}
+.Table_Log{
+    margin-left: 5%;
+    width: 100%;
+}
+.Table_Log h2{
+    
+  color: rgba(43, 43, 43, 0.825);
+}
+.Table_Log input{
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+  }
+  
+#Login_Box Button{
+    font-size: 20px;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 40%;
+}
+.upload1{
+    margin-top: 1%;
+    float: right;
+    width: 30%;
+}
+#H1_Titre{
+    background-color: rgb(31, 160, 252);
+    box-shadow: 0 .4rem .8rem #0005;
+    width: 70%;
+    margin-top: 5%;
+    position: relative;
+    right: 250px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.H1_S{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1px;
+}
+#mydiiiv{
+    
+    font-size: 20px;
+    width: 90%;
+    height: 60%;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+#mydiiiv1{
+    background-color: rgb(181, 181, 181);
+    float: left;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    left: -20%;
+    margin-top: 1%;
+    border-radius: 40px;
+    border: dashed;
+}
+#text_div{
+    position: relative;
+    top: 5%;
+
+}
+#text_div h3{
+    color: #6C63FF; 
+    font-weight: bold;
+}
+.Notif{
+    position: fixed;
+    top: -800px;
+    width: 30%;
+    
+}
+#mydiv_Notif1{
+    position: fixed;
+    top: 5%;
+    width: 20%;
+    margin-left: 2%;
+}
+#mydiv_Notif{
+    position: fixed;
+    left: 78%;
+    margin-top: 2%;
+    width: 70%;
+}
+.d{
+    background-color: rgb(242, 242, 242)
+}

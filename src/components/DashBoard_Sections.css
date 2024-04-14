@@ -1,0 +1,118 @@
+.d-flex {
+    display: flex;
+  }
+  
+  .vh-100 {
+    height: 100vh;
+  }
+  
+
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  
+  .bg-white {
+    background-color: rgba(222, 222, 222, 0.789);
+    box-shadow: 0 .4rem .8rem #0005;
+  }
+  
+  .rounded {
+    border-radius: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .btn-success {
+    
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:5px;
+    position: relative;
+    top: 20px;
+    
+  }
+  table{
+    margin-top: 5%;
+    
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: rgba(136, 136, 136, 0.43); /* Primary button color, you can customize */
+    color: #fff; /* Text color, you can customize */
+    font-size: 20px;
+    padding:5px;
+    border-radius: 5px;
+    margin-right: 5px; /* Adjust the margin as needed */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Danger button color, you can customize */
+    font-size: 20px;
+    border-radius: 5px;
+    padding:5px;
+    color: #fff;
+    border-color: rgba(136, 136, 136, 0.43);
+  }
+.Dash_Mat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Dash_Mat_Tab{
+    
+  border-radius: 20px;
+  backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#row{
+font-size: 18px !important;
+}
+#row1{
+  font-size: 25px ;
+  }
+  #row1:hover{
+    background-color: #fffffff0;
+    }
+Link{
+  text-decoration: none ;
+}
+
+#Table_Log{
+  float: left;
+}
+#Table_Mat{
+  background-color: #e2e2e27a;
+  box-shadow: 0 .4rem .8rem #0005;
+  border-radius: .8rem;
+  overflow: hidden;
+  width: 300%;
+  float: left;
+}
+#T_Head_Mat{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #d0d0d0;
+}
+.T_Body_Mat{
+  font-size: 18px;
+  text-align: left;
+}
+
+#ll{
+  height: 50%
+}
